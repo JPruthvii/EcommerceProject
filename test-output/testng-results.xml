@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-09T13:40:52 IST" name="ALLTestCases" finished-at="2024-11-09T13:41:29 IST" duration-ms="37108">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:Ecommerce.Test.ErrorValidation@2dfaea86]" name="LoginErrorValidation" class="Ecommerce.Test.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-11-09T13:40:52 IST" name="Test" finished-at="2024-11-09T13:41:29 IST" duration-ms="37108">
+      <class name="Ecommerce.Test.Day1">
+        <test-method signature="hoepage()[pri:0, instance:Ecommerce.Test.Day1@d554c5f]" started-at="2024-11-09T13:41:07 IST" name="hoepage" finished-at="2024-11-09T13:41:18 IST" duration-ms="10742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoepage -->
+      </class> <!-- Ecommerce.Test.Day1 -->
+      <class name="Ecommerce.Test.AddToKart">
+        <test-method is-config="true" signature="LaunchingApplication()[pri:0, instance:Ecommerce.Test.AddToKart@6f01b95f]" started-at="2024-11-09T13:40:52 IST" name="LaunchingApplication" finished-at="2024-11-09T13:40:56 IST" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:Ecommerce.Test.AddToKart@6f01b95f]" started-at="2024-11-09T13:40:56 IST" name="submitOrder" finished-at="2024-11-09T13:41:02 IST" duration-ms="6531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.Test.AddToKart@6f01b95f]" started-at="2024-11-09T13:41:02 IST" name="tearDown" finished-at="2024-11-09T13:41:03 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchingApplication()[pri:0, instance:Ecommerce.Test.AddToKart@6f01b95f]" started-at="2024-11-09T13:41:03 IST" name="LaunchingApplication" finished-at="2024-11-09T13:41:04 IST" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingApplication -->
+        <test-method signature="ordersPageValidation()[pri:0, instance:Ecommerce.Test.AddToKart@6f01b95f]" started-at="2024-11-09T13:41:04 IST" name="ordersPageValidation" finished-at="2024-11-09T13:41:07 IST" depends-on-methods="Ecommerce.Test.AddToKart.submitOrder" duration-ms="2290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordersPageValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.Test.AddToKart@6f01b95f]" started-at="2024-11-09T13:41:07 IST" name="tearDown" finished-at="2024-11-09T13:41:07 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ecommerce.Test.AddToKart -->
+      <class name="Ecommerce.Test.ErrorValidation">
+        <test-method is-config="true" signature="LaunchingApplication()[pri:0, instance:Ecommerce.Test.ErrorValidation@2dfaea86]" started-at="2024-11-09T13:41:18 IST" name="LaunchingApplication" finished-at="2024-11-09T13:41:20 IST" duration-ms="2145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:Ecommerce.Test.ErrorValidation@2dfaea86]" started-at="2024-11-09T13:41:20 IST" name="LoginErrorValidation" finished-at="2024-11-09T13:41:21 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.Test.ErrorValidation@2dfaea86]" started-at="2024-11-09T13:41:21 IST" name="tearDown" finished-at="2024-11-09T13:41:22 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchingApplication()[pri:0, instance:Ecommerce.Test.ErrorValidation@2dfaea86]" started-at="2024-11-09T13:41:22 IST" name="LaunchingApplication" finished-at="2024-11-09T13:41:25 IST" duration-ms="3390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:Ecommerce.Test.ErrorValidation@2dfaea86]" started-at="2024-11-09T13:41:25 IST" name="productErrorValidation" finished-at="2024-11-09T13:41:29 IST" duration-ms="3823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.Test.ErrorValidation@2dfaea86]" started-at="2024-11-09T13:41:29 IST" name="tearDown" finished-at="2024-11-09T13:41:29 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ecommerce.Test.ErrorValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- ALLTestCases -->
+</testng-results>
