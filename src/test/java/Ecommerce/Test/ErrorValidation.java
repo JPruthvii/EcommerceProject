@@ -11,7 +11,7 @@ import Ecommerce.pom.ProductCatalogPage;
 public class ErrorValidation extends BaseTest {
 	@Test(groups= {"ErrorHandling"})
 	public void LoginErrorValidation() throws InterruptedException, IOException
-	{// verifying once code is pushed it should trigger job
+	{// verifying once code is pushed it should trigger job in the jenkins
 		homePage.goTo();
 		ProductCatalogPage products=homePage.login("jpmanoj1@gmail.com","Passme@152345");
 		String errorMessage=homePage.getErrorMessage();
